@@ -1,29 +1,4 @@
-import os
-import os.path
-import numpy as np
-import sklearn
-import sklearn.model_selection
-import sklearn.linear_model
-from sklearn.feature_extraction.text import CountVectorizer
-from anchor import anchor_text
-import pandas as pd 
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
-from sklearn.preprocessing import LabelEncoder
-from sklearn.preprocessing import OneHotEncoder
-from sklearn.model_selection import RandomizedSearchCV
-import string 
-import matplotlib.pyplot as plt
-import copy
-os.chdir("C:/Users/33651/Documents/Projet_Anchors/CODE/")
-from classifier import *
-from dict_local import * 
-from perturbation import * 
-import itertools
-from select_cov import * 
-import itertools
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.feature_extraction.text import TfidfTransformer
+
 # ============================================================================#
 #                                                                             #
 # CODE POUR LE CALCUL DE LA COUVERTURE D UNE ANCRE                            #
