@@ -1,4 +1,6 @@
-# Code-Projet-Anchors
+# Projet Anchors 
+## Les exemples et les codes 
+#### Morgane Bourbao 
 
 Ce GitHub contient les codes utilisés dans l'article. 
 
