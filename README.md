@@ -9,7 +9,10 @@ Regardons un premier exemple d'application de la méthode Anchors avec perturbat
 
 [Premier exemple d'application](https://github.com/mbourbao/Code-Projet-Anchors/blob/main/Notebook/Application-sur-la-phrase-The-reception-have-been-generally-good.ipynb).
 
-Nous avons parler dans l'article de la vectorisation des données, en particulier on a présenté une méthode particulière pour la vectorisation que nous avons illustré sur un exemple. Regardons le résultat obtenue par codage. 
+Dans le mémoire, nous utilisons des données textuelles, la machine doit donc vectoriser ces données afin de les manipuler. 
+Nous avons parler dans l'article d'une méthode en particulier pour la vectorisation que nous avons illustré sur un exemple. Regardons le résultat obtenue par codage.
+
+
 
 
 
