@@ -15,11 +15,7 @@ Nous avons parler dans l'article d'une méthode en particulier pour la vectorisa
 [Vectorisation des données avec CountVectorizer de SkLearn](https://github.com/mbourbao/Code-Projet-Anchors/blob/main/Notebook/Vectorisation_Count_Vect.ipynb
 ).
 
-
-https://github.com/mbourbao/Code-Projet-Anchors/blob/main/Notebook/Vectorisation_Count_Vect.ipynb
-
-
-Nous allons présenter les deux méthodes de perturbation à travers des exemples : 
+La méthode Anchors est local, elle explique une instance en particulier. Pour se faire, la méthode utilise des perturbations de l'instance que nous expliquons. Il existe plusieurs méthodes pour générer des perturbations. Dans le mémoire, nous étudions deux types de méthode : La méthode dite déterministe et la méthode dite générative. Visualisons ces méthodes à travers des exemples. 
   
   - [Exemple de perturbation déterministe](https://github.com/mbourbao/Code-Projet-Anchors/blob/main/Notebook/Exemple%20perturbation%20d%C3%A9terministe.ipynb).
 
