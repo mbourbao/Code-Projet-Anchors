@@ -1,6 +1,6 @@
-# Projet Anchors 
+# Projet Anchors                                                                                                                            #### Morgane Bourbao 
 ## Les exemples et les codes 
-#### Morgane Bourbao 
+
 
 Ce GitHub contient les codes utilisés dans l'article. 
 
