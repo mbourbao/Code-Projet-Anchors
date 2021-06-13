@@ -15,5 +15,6 @@ Nous avons parler dans l'article de la vectorisation des données, en particulie
 
 
 Nous allons présenter les deux méthodes de perturbation à travers des exemples : 
-[Exemple de perturbation déterministe](https://github.com/mbourbao/Code-Projet-Anchors/blob/main/Notebook/Exemple%20perturbation%20d%C3%A9terministe.ipynb).
+  
+  - [Exemple de perturbation déterministe](https://github.com/mbourbao/Code-Projet-Anchors/blob/main/Notebook/Exemple%20perturbation%20d%C3%A9terministe.ipynb).
 
