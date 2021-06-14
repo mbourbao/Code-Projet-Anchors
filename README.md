@@ -27,7 +27,11 @@ La méthode Anchors est local, elle explique une instance en particulier. Pour s
 
 Regardons un exemple d'application de Anchors sur un exemple de phrase (positive ou négative) : (exemple du mémoire) [Explication donnée par Anchors sur plusieurs commentaires](https://github.com/mbourbao/Code-Projet-Anchors/blob/main/Notebook/Application_sur_plusieurs_phrase.ipynb).
 
-
+L'objectif du travail est de comprendre le fonctionnement d'Anchors, nous avons vu dans le mémoire, que cette méthode utilise plusieurs notions : 
+  - La couverture,
+  - La précision, 
+  - Des perturbations. 
+Regardons sur un exemple, l'evolution de ses valeurs et essayons de comprendre intuitivement comment Anchors raisonne pour choisir le point d'ancrage. 
 
 
 Afin de vérifier la cohérence de nos codes utilisés dans ce projet, nous réalisons une expérience permettant de mesurer la performance et de valider notre implémentation. 
