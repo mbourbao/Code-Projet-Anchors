@@ -19,12 +19,13 @@ Nous avons parler dans l'article d'une méthode en particulier pour la vectorisa
 [Vectorisation des données avec CountVectorizer de SkLearn](https://github.com/mbourbao/Code-Projet-Anchors/blob/main/Notebook/Vectorisation_Count_Vect.ipynb
 ).
 
-La méthode Anchors est local, elle explique une instance en particulier. Pour se faire, la méthode utilise des perturbations de l'instance que nous expliquons. Il existe plusieurs méthodes pour générer des perturbations. Dans le mémoire, nous étudions deux types de méthode : La méthode dite déterministe et la méthode dite générative. Visualisons ces méthodes à travers des exemples. 
+La méthode Anchors est local, elle explique une instance en particulier. Pour se faire, la méthode utilise des perturbations de l'instance que nous expliquons. Il existe plusieurs méthodes pour générer des perturbations. Dans ce travail, nous étudions deux types de méthode : La méthode dite déterministe et la méthode dite générative. Visualisons ces méthodes à travers des exemples. 
 
   - [Exemple de perturbation déterministe](https://github.com/mbourbao/Code-Projet-Anchors/blob/main/Notebook/Exemple%20perturbation%20d%C3%A9terministe.ipynb).
   - [Exemple de perturbation générative](https://github.com/mbourbao/Code-Projet-Anchors/blob/main/Notebook/Perturbation_Bert.ipynb)
 
-Afin de vérifier la cohérence de nos codes, nous allons réaliser une expérience permettant de mesurer la performance et de valider notre implémentation. 
-Dans l'implémentation, nous utilisons une méthode de recherche exhaustive c'est à dire que nous parcourons toutes les combinaisons une par une (très long). Le package utilise un algorithme de recheche différent plus rapide : "Bandit Manchot".
-De plus, il faut noter que la distribution des perturbations sont aléatoires, ainsi cette alèa peut entraîner parfois des différences dans le résultat de la précision. 
+Afin de vérifier la cohérence de nos codes utilisés dans ce projet, nous réalisons une expérience permettant de mesurer la performance et de valider notre implémentation. 
 
+- [Experience pour la performance de la nouvelle implémentation.](https://github.com/mbourbao/Code-Projet-Anchors/blob/main/Notebook/Comparaison-performance.ipynb)
+
+  
