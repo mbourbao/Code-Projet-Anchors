@@ -4,9 +4,9 @@
 
 
 Ce GitHub contient les codes utilisés dans l'article. 
-Le but de ce mémoire est de comprendre le but de la méthode Anchors, de comprendre en détail son fonctionnement et de vérifier la cohérence des résultats obtenus en l'appliquant. Afin de comprendre son fonctionnement et de présenter son mécanisme de fonctionnement, nous avons réaliser une nouvelle implémentation en se basant sur les codes du GitHub de Rebeiro. 
+Le but de ce mémoire est de comprendre le principe de la méthode Anchors et de comprendre en détail son fonctionnement. Afin de comprendre cette méthode, nous avons réaliser une nouvelle implémentation de la méthode en utilisant de langage `Python`. On s'est aidé des codes de Rebeiro présent du son GitHub (en référence dans l'article).
 
-Plusieurs JupyterNotebook sont à disposition afin de visualiser les différents exemples de l'article.
+Plusieurs JupyterNotebook sont à disposition afin de visualiser les différents exemples du mémoire.
 Les codes de la nouvelle implémentation de Anchors se trouve dans le dossier `Code`.
 
 Regardons un premier exemple d'application de la méthode Anchors avec perturbation déterministe sur un exemple simple pour se donner une idée de ce qu'est une ancre. 
@@ -25,8 +25,6 @@ La méthode Anchors est local, elle explique une instance en particulier. Pour s
   - [Exemple de perturbation générative](https://github.com/mbourbao/Code-Projet-Anchors/blob/main/Notebook/Perturbation_Bert.ipynb).
 
 
-Regardons un exemple d'application de Anchors sur un exemple de phrase (positive ou négative) : (exemple du mémoire) [Explication donnée par Anchors sur plusieurs commentaires](https://github.com/mbourbao/Code-Projet-Anchors/blob/main/Notebook/Application_sur_plusieurs_phrase.ipynb).
-
 L'objectif du travail est de comprendre le fonctionnement d'Anchors, nous avons vu dans le mémoire, que cette méthode utilise plusieurs notions : 
   - La couverture,
   - La précision, 
@@ -36,6 +34,9 @@ Regardons sur un exemple, l'evolution de ses valeurs et essayons de comprendre i
 
 
 Afin de vérifier la cohérence de nos codes utilisés dans ce projet, nous réalisons une expérience permettant de mesurer la performance et de valider notre implémentation. 
+Comparons dans un premier temps les deux implémentations sur quelques phrases (positives ou négatives) : 
+
+-  [Explication donnée par Anchors sur plusieurs commentaires](https://github.com/mbourbao/Code-Projet-Anchors/blob/main/Notebook/Application_sur_plusieurs_phrase.ipynb) .
 
 -  [Experience pour mesurer la performance de la nouvelle implémentation.](https://github.com/mbourbao/Code-Projet-Anchors/blob/main/Notebook/Comparaison-performance.ipynb)
 
