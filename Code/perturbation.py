@@ -65,4 +65,4 @@ def generation_perturb_bis4(ma_phrase,mes_mot,nbre_perturb,st): #Prend en parame
    # print("taille final",len(sauv_phrase))
     data = pd.DataFrame(data=sauv_phrase)
     return(data)
-
+ 
