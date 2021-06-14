@@ -27,7 +27,7 @@ import string
 from nltk import word_tokenize
 import copy
 
-
+ 
 # =============================================================================
 # CODE PERTURBATION GENERATIVE - Plusieurs mots cachés 
 # =============================================================================
