@@ -30,15 +30,15 @@ import itertools
 
 # =============================================================================
 # 
-# CODE : Fonction qui renvoie la meilleur ancre (méthode perturbation déterministe )
+# CODE : Fonction qui renvoie la meilleur ancre avec une méthode de perturbation déterministe.
 # 
 # 
 # =============================================================================
 
 def meilleur_ancre_bis_new(df,phrase,nbre_perturb,st,senti,tau, vectorizer, classifier ):
     
-    final = []
-    label = senti #Sentiment postif = 1 ou sentiment negatif = 0 
+    final = [] #liste qui va contenir le meilleur ancre + sa précision
+    label = senti #Sentiment de la phrase qu'on veut expliquer (0 ou 1).
     
 # =============================================================================
 #     ################ PREPARATION DE LA PHRASE ####################
@@ -69,7 +69,7 @@ def meilleur_ancre_bis_new(df,phrase,nbre_perturb,st,senti,tau, vectorizer, clas
         for j in range(len(exp2)):
             l.append(exp3[j][0])
         resultat = classif2(df,0.2,l) #Application du classifieur sur les perturbations
-        meilleur_prec = len(resultat[resultat==label])/len(resultat) #calcul de la t
+        meilleur_prec = len(resultat[resultat==label])/len(resultat) #calcul de la précision associé à l'unique candidat
         return(best_candidats, meilleur_prec)
         
     
@@ -79,7 +79,7 @@ def meilleur_ancre_bis_new(df,phrase,nbre_perturb,st,senti,tau, vectorizer, clas
         for c in itertools.combinations(les_candidats,i): #Toutes les combinaisons possibles des candidats de taille i
             x= list(c) #On enregistre toutes les combinaisons possibles
             comb_temp.append(x)
-            if meilleur_prec > 0.98 : #Si on est arrivé au maximum de la précsion (on ne peut pas aller + haut que 1) evite de continuer pour rien
+            if meilleur_prec > 0.98 : #Si on est arrive à une précision supérieur à 0.98 = très satisfaisant et on evite de continuer pour rien (gain de temps)
 # =============================================================================
 #                  print('Anchor:', best_ancre , 'Precision:', meilleur_prec )
 # =============================================================================
@@ -110,7 +110,8 @@ def meilleur_ancre_bis_new(df,phrase,nbre_perturb,st,senti,tau, vectorizer, clas
                 #print(meilleur_prec)
             else: 
              #   print("com", comb_temp[p])
-                perturb = generation_perturb_bis4(ph_expli_tok,comb_temp[p],nbre_perturb,st)
+                perturb = generation_perturb_bis4(ph_expli_tok,comb_temp[p],nbre_perturb,st) #perturbation déterministe
+     # transformation pour facilité la manipulation et le calcul de la précision.
                 exp2 = np.array(perturb)
                 exp3 = list(exp2)
                 l =[]
