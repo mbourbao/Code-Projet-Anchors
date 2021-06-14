@@ -39,4 +39,3 @@ Afin de vérifier la cohérence de nos codes utilisés dans ce projet, nous réa
 
 -  [Experience pour mesurer la performance de la nouvelle implémentation.](https://github.com/mbourbao/Code-Projet-Anchors/blob/main/Notebook/Comparaison-performance.ipynb)
 
-  
