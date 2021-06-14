@@ -30,8 +30,8 @@ L'objectif du travail est de comprendre le fonctionnement d'Anchors, nous avons 
   - La précision, 
   - Des perturbations. 
  
-Regardons sur un exemple, l'evolution de ses valeurs et essayons de comprendre intuitivement comment Anchors raisonne pour choisir le point d'ancrage. 
-[Explication détaillé d'une phrase](https://github.com/mbourbao/Code-Projet-Anchors/blob/main/Notebook/Explication-d%C3%A9taill%C3%A9.ipynb) .
+Regardons sur un exemple, l'evolution de ses valeurs et essayons de comprendre intuitivement comment Anchors raisonne pour choisir le point d'ancrage :
+[Explication détaillé d'une phrase](https://github.com/mbourbao/Code-Projet-Anchors/blob/main/Notebook/Explication-d%C3%A9taill%C3%A9.ipynb).
 
 
 
