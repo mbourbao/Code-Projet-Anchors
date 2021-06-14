@@ -71,3 +71,4 @@ c = sklearn.linear_model.LogisticRegression()
 c.fit(train_vectors, train_labels)
 preds = c.predict(val_vectors)
 print('Val accuracy', sklearn.metrics.accuracy_score(val_labels, preds))
+ 
