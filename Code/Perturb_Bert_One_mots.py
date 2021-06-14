@@ -32,7 +32,7 @@ import copy
 
 torch = torch
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
+ 
 ## unmask : fonction prise du GitHub de Ribeiro 
 ## Cette fonction prend en paramètre une phrase avec des mots masqués
 ## Elle retourne une liste contenant autant de sous-liste que de mot masqué
