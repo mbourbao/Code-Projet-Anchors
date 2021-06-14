@@ -165,4 +165,4 @@ def gener_perturb_bert_one(phrase_mask,phrase_entiere,torch):
 # phrase_demask3 = gener_perturb_bert_one("[MASK] reception have been generally good." ,"The reception has been generally good." ,torch)
 # phrase_demask4 = gener_perturb_bert_one("The reception have been [MASK] good." ,"The reception has been generally good." ,torch)
 # =============================================================================
-generation_perturb_bert_one("the good job",["job"],10,"[MASK]")
+#generation_perturb_bert_one("the good job",["job"],10,"[MASK]")
