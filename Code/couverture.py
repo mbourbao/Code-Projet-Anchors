@@ -42,7 +42,7 @@ def cov_bis(ancre,data_sentence):
 #     Pour calculer la couverture d une ancre, il faut compter combien de fois ce mot apparait dans nos phrases 
 # =============================================================================
 # =============================================================================
-# 
+#  
 # Toutes nos phrases pour pouvoir compter 
 # =============================================================================
     cov_testl = list(data_sentence)
