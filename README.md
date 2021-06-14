@@ -25,11 +25,11 @@ La méthode Anchors est local, elle explique une instance en particulier. Pour s
   - [Exemple de perturbation générative](https://github.com/mbourbao/Code-Projet-Anchors/blob/main/Notebook/Perturbation_Bert.ipynb)
 
 
-Regardons un exemple d'application de Anchors sur un exemple de phrase (positive ou négative) : (exemple du mémoire) [Explication donnée par Anchors sur plusieurs commentaires]([Exemple de perturbation générative](https://github.com/mbourbao/Code-Projet-Anchors/blob/main/Notebook/Perturbation_Bert.ipynb)
-)
+Regardons un exemple d'application de Anchors sur un exemple de phrase (positive ou négative) : (exemple du mémoire) [Explication donnée par Anchors sur plusieurs commentaires](https://github.com/mbourbao/Code-Projet-Anchors/blob/main/Notebook/Application_sur_plusieurs_phrase.ipynb)
 
 
-https://github.com/mbourbao/Code-Projet-Anchors/blob/main/Notebook/Application_sur_plusieurs_phrase.ipynb
+
+
 Afin de vérifier la cohérence de nos codes utilisés dans ce projet, nous réalisons une expérience permettant de mesurer la performance et de valider notre implémentation. 
 
 - [Experience pour mesurer la performance de la nouvelle implémentation.](https://github.com/mbourbao/Code-Projet-Anchors/blob/main/Notebook/Comparaison-performance.ipynb)
