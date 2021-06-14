@@ -31,6 +31,7 @@ L'objectif du travail est de comprendre le fonctionnement d'Anchors, nous avons 
   - La couverture,
   - La précision, 
   - Des perturbations. 
+ 
 Regardons sur un exemple, l'evolution de ses valeurs et essayons de comprendre intuitivement comment Anchors raisonne pour choisir le point d'ancrage. 
 
 
