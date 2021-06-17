@@ -37,7 +37,7 @@ Regardons sur un exemple, l'evolution de ses valeurs et essayons de comprendre i
 
 Afin de vérifier la cohérence de nos codes utilisés dans ce projet, nous réalisons une expérience permettant de mesurer la performance et de valider notre implémentation. 
 Nous allons expliquer la décision prise par la boîte de noire pour 1000 commentaires. Pour ce faire, nous perturbons les données en utilisant une méthode déterministe. En effet, le temps d'execution avec une méthode générative est beaucoup trop élevé : 
-
+-  [Temps pour la génération des pertubations.](https://github.com/mbourbao/Code-Projet-Anchors/blob/main/Notebook/Temps_Bert.ipynb) .
 
 Comparons dans un premier temps les deux implémentations sur quelques phrases (positives ou négatives) : 
 
