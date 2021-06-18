@@ -23,6 +23,7 @@ La méthode Anchors est locale, elle explique une instance en particulier. Pour 
 
   - [Exemple de perturbation déterministe](https://github.com/mbourbao/Code-Projet-Anchors/blob/main/Notebook/Exemple%20perturbation%20d%C3%A9terministe.ipynb).
   - [Exemple de perturbation générative](https://github.com/mbourbao/Code-Projet-Anchors/blob/main/Notebook/Perturbation_Bert.ipynb).
+      - [Exemple d'instance avec des mots masqués ](https://github.com/mbourbao/Code-Projet-Anchors/blob/main/Notebook/MASK.ipynb).
 
 
 L'objectif du travail est de comprendre le fonctionnement d'Anchors, nous avons vu dans le mémoire, que cette méthode utilise plusieurs notions : 
